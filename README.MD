@@ -16,3 +16,8 @@ Con mis conocimientos básicos en  HTML, CSS y JS estoy listo para empezar a cre
 ## 03 - Definiendo la idea de mi proyecto
 
 Lo he estado pensando bien y decidí hacer una especie de tienda de stickers (como los que usamos en whatsapp). Así que dentro del archivo `index.html` desarrollaré los componentes mas comunes.
+
+## 04 - Mejorando la tienda
+
+Ahora que el proyecto va tomando forma necesito agregar imágenes y tener una mejor estructura de carpetas para el proyecto. Además sería bueno que mejore los elementos del sitio web y cualquier otro detalle que se me ocurra.
+

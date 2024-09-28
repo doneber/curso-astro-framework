@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,13 +13,27 @@
     <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#!">
+            <a class="navbar-brand" href="/">
+                <img src="./public/logo.png" width="32" alt="Logo de Stickers">
                 <span>Stickers</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="/">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <i class="bi-cart-fill me-1"></i>
+                        Carrito
+                        <span class="badge bg-warning text-dark ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+            </div>
         </div>
     </nav>
 
@@ -40,91 +54,66 @@
                     <!-- Producto N -->
                     <div class="col-6 col-md-4 col-lg-3 mb-5">
                         <div class="card h-100">
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
+                            <img class="card-img-top img-fluid" src="./public/images/flork.svg" alt="Sticker Facepalm"
+                                style="object-fit: contain; height: 200px;">
                             <div class="card-body text-center">
                                 <h5 class="fw-bolder">Flork con Corazón</h5>
                                 <p class="mb-0">Bs 10.00</p>
                             </div>
-
+                            <div class="card-footer bg-transparent border-top-0 text-center">
+                                <a class="btn btn-primary mt-auto mb-3" href="./product.html">Ver detalles</a>
+                            </div>
                         </div>
                     </div>
-
+    
                     <!-- Producto N -->
                     <div class="col-6 col-md-4 col-lg-3 mb-5">
                         <div class="card h-100 position-relative">
-                            <div class="badge bg-warning text-dark position-absolute" style="top:.5rem;right:.5rem">
-                                Popular
+                            <div class="badge bg-warning text-dark position-absolute" style="top:.5rem;right:.5rem">Popular
                             </div>
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
+                            <img class="card-img-top img-fluid" src="./public/images/bear.webp" alt="Sticker Facepalm"
+                                style="object-fit: contain; height: 200px;">
                             <div class="card-body text-center">
                                 <h5 class="fw-bolder">Oso Ted</h5>
                                 <p class="mb-0">Bs 8.00</p>
                             </div>
-
+                            <div class="card-footer bg-transparent border-top-0 text-center">
+                                <a class="btn btn-primary mt-auto mb-3" href="./product.html">Ver detalles</a>
+                            </div>
                         </div>
                     </div>
-
+    
                     <!-- Producto N -->
                     <div class="col-6 col-md-4 col-lg-3 mb-5">
                         <div class="card h-100 position-relative">
-                            <div class="badge bg-success text-white position-absolute" style="top:.5rem;right:.5rem">
-                                Nuevo
+                            <div class="badge bg-success text-white position-absolute" style="top:.5rem;right:.5rem">Nuevo
                             </div>
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
+                            <img class="card-img-top img-fluid" src="./public/images/stich.webp" alt="Sticker Facepalm"
+                                style="object-fit: contain; height: 200px;">
                             <div class="card-body text-center">
                                 <h5 class="fw-bolder">Stich</h5>
                                 <p class="mb-0">Bs 12.00</p>
                             </div>
-
+                            <div class="card-footer bg-transparent border-top-0 text-center">
+                                <a class="btn btn-primary mt-auto mb-3" href="./product.html">Ver detalles</a>
+                            </div>
                         </div>
                     </div>
+
                     <!-- Producto N -->
                     <div class="col-6 col-md-4 col-lg-3 mb-5">
                         <div class="card h-100">
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
+                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="Sticker Facepalm"
+                                style="object-fit: contain; height: 200px;">
                             <div class="card-body text-center">
-                                <h5 class="fw-bolder">Flork con Corazón</h5>
-                                <p class="mb-0">Bs 10.00</p>
+                                <h5 class="fw-bolder">Producto genérico</h5>
+                                <p class="mb-0">Bs 3.99</p>
                             </div>
-
+                            <div class="card-footer bg-transparent border-top-0 text-center">
+                                <a class="btn btn-primary mt-auto mb-3" href="./product.html">Ver detalles</a>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- Producto N -->
-                    <div class="col-6 col-md-4 col-lg-3 mb-5">
-                        <div class="card h-100 position-relative">
-                            <div class="badge bg-warning text-dark position-absolute" style="top:.5rem;right:.5rem">
-                                Popular
-                            </div>
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
-                            <div class="card-body text-center">
-                                <h5 class="fw-bolder">Oso Ted</h5>
-                                <p class="mb-0">Bs 8.00</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4 col-lg-3 mb-5">
-                        <div class="card h-100 position-relative">
-                            <div class="badge bg-success text-white position-absolute" style="top:.5rem;right:.5rem">
-                                Nuevo
-                            </div>
-                            <img class="card-img-top img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="Sticker Facepalm" style="object-fit: contain; height: 200px;">
-                            <div class="card-body text-center">
-                                <h5 class="fw-bolder">Stich</h5>
-                                <p class="mb-0">Bs 12.00</p>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
