@@ -56,3 +56,16 @@ npm run dev
 
 y dirigirnos a [http://localhost:4321/](http://localhost:4321/)
 
+### 06 - Creando un componente en astro
+
+Quizás aún no veas muchos cambios en el proyecto, pero ahora podemos usar difrentes funcionalidades de astro.
+
+Así que para empezar nos creamos el componente de la Barra de Navegación, así que para esto necesitamos hacer los siguiente:
+- Crear dentro de la carpeta `src` una nueva carpeta llamada `components`
+- Luego crear un archivo llamado `Navegacion.html`
+- Y ahora para poder usar este componente, el archivo donde queremos llamarlo debe ser `.astro`, así que remplazamos la extensión de nuestro `index.html` a `index.astro`
+- Y finalmente desde `index.astro` ya podemos llamar al componente que acabamos de crear (`Navegacion.html`)
+
+Ahora podremos usar este componente en cualquier otra página que necesitemos.
+
+Nota: Instala la extensión de Astro para que el editor coloree el archivo. 
