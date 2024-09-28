@@ -21,3 +21,38 @@ Lo he estado pensando bien y decidí hacer una especie de tienda de stickers (co
 
 Ahora que el proyecto va tomando forma necesito agregar imágenes y tener una mejor estructura de carpetas para el proyecto. Además sería bueno que mejore los elementos del sitio web y cualquier otro detalle que se me ocurra.
 
+## 05 - Agregando Astro al proyecto
+
+Ahora si quisiera hacer una nueva página como `about.html` tengo demasiado código que actualizar. Para mejorar mi **experiencia de desarrollo** utilizaré Astro.
+
+Lo normal sería crear otro proyecto y ejecutar:
+
+```shell
+npm create astro@latest
+```
+
+Pero por esta vez simplemente agregaré los siguientes archivos:
+- `package.json`
+- `astro.config.mjs`
+- `src/env.d.ts`
+
+Moveré mis archivo `.html` a la carpeta `src/pages`
+
+Y después de que ejecute
+
+```shell
+npm install
+```
+
+Se creará automáticamente el archivo `package-lock.json`.
+
+Ya que estamos controlando las vesriones también debemos copiar el archivo `.gitignore`
+
+Finalmente ya podemos levantar el proyecto ejecutando
+
+```shell
+npm run dev
+```
+
+y dirigirnos a [http://localhost:4321/](http://localhost:4321/)
+
