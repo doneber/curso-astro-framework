@@ -13,3 +13,6 @@ Así que, antes de continuar veamos primero el problema que resuelve [Astro](htt
 
 Con mis conocimientos básicos en  HTML, CSS y JS estoy listo para empezar a crear el próximo facebook. Empezaré creando algo básico en el archivo `index.html` y como ando algo corto de tiempo, usaré Bootstrap.
 
+## 03 - Definiendo la idea de mi proyecto
+
+Lo he estado pensando bien y decidí hacer una especie de tienda de stickers (como los que usamos en whatsapp). Así que dentro del archivo `index.html` desarrollaré los componentes mas comunes.
